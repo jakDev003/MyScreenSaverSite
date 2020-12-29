@@ -22,13 +22,15 @@ div {
 }
 
 .background {
-	background-image: url(https://source.unsplash.com/1600x900/?day);
+	/* background-image: url(https://source.unsplash.com/1600x900/?day); */
+	background-image: url(https://source.unsplash.com/weekly?gaming);
 }
 
 .foreground {
-	background-image: url(https://source.unsplash.com/1600x900/?night);
-  mask-image: linear-gradient(var(--direction), black 40%, transparent 60%);
-  -webkit-mask-image: linear-gradient(var(--direction), black 40%, transparent 60%);
+	/* background-image: url(https://source.unsplash.com/1600x900/?night); */
+	background-image: url(https://source.unsplash.com/weekly?electronics);
+  mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
+  -webkit-mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
   mask-position: 50% 50%;
   -webkit-mask-position: 50% 50%;
 }
