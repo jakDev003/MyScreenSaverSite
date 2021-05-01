@@ -23,14 +23,56 @@ div {
 
 .background {
 	/* background-image: url(https://source.unsplash.com/1600x900/?day); */
-	background-image: url(https://source.unsplash.com/weekly?gaming);
+	/* background-image: url(https://source.unsplash.com/weekly?gaming); */
+	background-image: url(https://source.unsplash.com/daily?gaming);
 }
 
 .foreground {
 	/* background-image: url(https://source.unsplash.com/1600x900/?night); */
-	background-image: url(https://source.unsplash.com/weekly?electronics);
-  mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
-  -webkit-mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
-  mask-position: 50% 50%;
-  -webkit-mask-position: 50% 50%;
+	/* background-image: url(https://source.unsplash.com/weekly?electronics); */
+	/* background-image: url(https://source.unsplash.com/daily?electronics); */
+	mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
+	-webkit-mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
+	mask-position: 50% 50%;
+	-webkit-mask-position: 50% 50%;
+}
+
+#clock {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+}
+
+#date,
+#time {
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+	margin-top: -13%;
+	height: 10em;
+	width: 30em;
+	border-radius: 2em;
+	padding: 5px;
+}
+
+.time {
+	letter-spacing: 0.05em;
+	font-size: 80px;
+	padding: 5px 0;
+}
+
+.date {
+	letter-spacing: 0.1em;
+	font-size: 24px;
 }
