@@ -30,7 +30,7 @@ div {
 .foreground {
 	/* background-image: url(https://source.unsplash.com/1600x900/?night); */
 	/* background-image: url(https://source.unsplash.com/weekly?electronics); */
-	/* background-image: url(https://source.unsplash.com/daily?electronics); */
+	background-image: url(https://source.unsplash.com/daily?electronics);
 	mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
 	-webkit-mask-image: linear-gradient(var(--direction), black 48%, transparent 52%);
 	mask-position: 50% 50%;
